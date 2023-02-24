@@ -16,7 +16,7 @@ a {
 
 ul,
 ol {
-  padding-left: $mobile-list-padding;
+  padding-left: var(--mobile-list-padding);
 }
 
 ul.no-style { list-style-type: none; }
@@ -38,5 +38,5 @@ img {
   section { padding: var(--section-padding-desktop); }
 
   ul,
-  ol { padding-left: $var(--desktop-list-padding); }
+  ol { padding-left: var(--desktop-list-padding); }
 }
